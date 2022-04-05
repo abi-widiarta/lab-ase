@@ -1,0 +1,135 @@
+.last {
+  color: #3b3b39;
+  /* margin-top: 20rem; */
+  /* padding-bottom: 20rem; */
+  text-align: center;
+  background-color: white;
+}
+
+.last-title {
+  font-size: 4rem;
+}
+
+.last-quote {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.last-quote-by {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .last {
+    color: #3b3b39;
+    /* margin-top: 20rem; */
+    /* padding-bottom: 20rem; */
+    background-color: white;
+  }
+
+  .last-title {
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .last-quote {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .last-quote-by {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (min-width: 577px) {
+  .last {
+    color: #3b3b39;
+    /* margin-top: 20rem; */
+    /* padding-bottom: 20rem; */
+    background-color: white;
+  }
+
+  .last-title {
+    font-size: 2.4rem;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .last-quote {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .last-quote-by {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .last {
+    color: #3b3b39;
+    /* margin-top: 20rem; */
+    /* padding-bottom: 20rem; */
+    background-color: white;
+  }
+
+  .last-title {
+    font-size: 3rem;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .last-quote {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+  }
+
+  .last-quote-by {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .last {
+    color: #3b3b39;
+    /* margin-top: 20rem; */
+    /* padding-bottom: 20rem; */
+    background-color: white;
+  }
+
+  .last-title {
+    font-size: 4rem;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .last-quote {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+
+  .last-quote-by {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+  }
+}

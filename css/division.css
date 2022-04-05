@@ -1,0 +1,493 @@
+.division {
+  color: white;
+  text-align: center;
+  position: relative;
+  /* padding: 4rem 0; */
+}
+
+.title-1 {
+  font-size: 2rem;
+  margin-bottom: -0.4rem;
+}
+
+.title-2 {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  /* font-weight: normal; */
+  margin-bottom: 1.6rem;
+}
+
+.subtitle {
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.content-box {
+  margin: 3.2rem auto;
+  max-width: 960px;
+  min-height: 370px;
+  background-color: #727270;
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+.div-img-1 {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.div-img-2 {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-delay: 0.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.div-img-3 {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-delay: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.div-img-4 {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-delay: 1.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.div-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div-title {
+  margin-top: 2rem;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+.blobpat-1 {
+  position: absolute;
+  z-index: -1;
+  padding-top: 400px;
+  left: -500px;
+  /* top: 6000px; */
+  /* bottom: -500px; */
+}
+
+.blobpat-2 {
+  position: absolute;
+  z-index: -1;
+  padding-top: 400px;
+  right: -500px;
+}
+
+@media (max-width: 576px) {
+  .division {
+    color: white;
+    text-align: center;
+    position: relative;
+    /* padding: 4rem 0; */
+  }
+
+  .title-1 {
+    font-size: 2rem;
+    margin-bottom: -0.4rem;
+  }
+
+  .title-2 {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    /* font-weight: normal; */
+    margin-bottom: 1.6rem;
+  }
+
+  .subtitle {
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+  }
+
+  .content-box {
+    margin: 3.2rem auto;
+    max-width: 960px;
+    min-height: 370px;
+    width: 80%;
+    background-color: #727270;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 16px 0;
+  }
+
+  .div-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+  }
+
+  .div-box {
+    margin: 20px 0;
+  }
+
+  .div-img-1 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-2 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-3 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-4 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .div-title {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 577px) {
+  .division {
+    color: white;
+    text-align: center;
+    position: relative;
+    /* padding: 4rem 0; */
+  }
+
+  .title-1 {
+    font-size: 2rem;
+    margin-bottom: -0.4rem;
+  }
+
+  .title-2 {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    /* font-weight: normal; */
+    margin-bottom: 1.6rem;
+  }
+
+  .subtitle {
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+  }
+
+  .content-box {
+    margin: 3.2rem auto;
+    max-width: 960px;
+    min-height: 370px;
+    width: 80%;
+    background-color: #727270;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 16px 0;
+  }
+
+  .div-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+  }
+
+  .div-box {
+    margin: 20px 0;
+  }
+
+  .div-img-1 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-2 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-3 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-4 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .div-title {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .division {
+    color: white;
+    text-align: center;
+    position: relative;
+    /* padding: 4rem 0; */
+  }
+
+  .title-1 {
+    font-size: 2rem;
+    margin-bottom: -0.4rem;
+  }
+
+  .title-2 {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    /* font-weight: normal; */
+    margin-bottom: 1.6rem;
+  }
+
+  .subtitle {
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+  }
+
+  .content-box {
+    margin: 3.2rem auto;
+    max-width: 960px;
+    /* min-height: 370px; */
+    width: 80%;
+    height: 200px;
+    background-color: #727270;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 16px 0;
+  }
+
+  .div-container {
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* padding: 16px 0;S */
+  }
+
+  .div-box {
+    height: 100px;
+  }
+
+  .div-img {
+    width: 100px;
+  }
+
+  .div-img-1 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-2 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-3 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-4 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-container {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .div-title {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .division {
+    color: white;
+    text-align: center;
+    position: relative;
+    /* padding: 4rem 0; */
+  }
+
+  .title-1 {
+    font-size: 2rem;
+    margin-bottom: -0.4rem;
+  }
+
+  .title-2 {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    /* font-weight: normal; */
+    margin-bottom: 1.6rem;
+  }
+
+  .subtitle {
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+  }
+
+  .content-box {
+    margin: 3.2rem auto;
+    max-width: 960px;
+    /* min-height: 370px; */
+    width: 80%;
+    height: 200px;
+    background-color: #727270;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 16px 0;
+  }
+
+  .div-container {
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* padding: 16px 0;S */
+  }
+
+  .div-box {
+    height: 100px;
+  }
+
+  .div-img {
+    width: 150px;
+  }
+
+  .div-img-1 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-2 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-3 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-img-4 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  .div-container {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .div-title {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+}
