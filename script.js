@@ -33,3 +33,9 @@ document.querySelectorAll(".nav-link").forEach((n) =>
     navMenu.classList.remove("active");
   })
 );
+
+const link = document.querySelectorAll(".link");
+
+link.addEventListener("click", function () {
+  console.log("ok");
+});

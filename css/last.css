@@ -22,6 +22,10 @@
   margin-top: 0.5rem;
 }
 
+.svg-last {
+  z-index: 1;
+}
+
 @media (max-width: 576px) {
   .last {
     color: #3b3b39;

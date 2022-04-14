@@ -88,14 +88,17 @@
 
 .line3-left {
   position: absolute;
-  z-index: -1;
+  z-index: 999;
+  /* border: 1px solid yellow; */
 }
 
 .line3-right {
   position: absolute;
   z-index: -1;
-  right: 0;
-  top: -60px;
+  top: -100px;
+  right: -2000px;
+  /* border: 1px solid red; */
+  width: 100px;
 }
 
 .blobpat-1 {
@@ -114,8 +117,14 @@
 }
 
 @media (max-width: 576px) {
+  .line3-left-member {
+    display: block;
+  }
+
   .vmb-general {
     display: flex;
+    flex-direction: column;
+
     color: white;
     text-align: center;
     /* padding: 6rem 0; */
@@ -124,8 +133,10 @@
   }
 
   .vmb-img {
+    margin: 0 auto;
     width: 50%;
     display: flex;
+    order: 1;
     align-items: center;
     justify-content: center;
     /* animation-name: float;
@@ -135,15 +146,17 @@
   }
 
   .vmb-img img {
-    width: 80%;
+    width: 100%;
     animation: shake 4s ease 0s infinite normal forwards;
   }
 
   .vmb-box {
-    width: 50%;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0 auto;
+    order: 2;
   }
 
   .vmb-title {
@@ -153,11 +166,11 @@
   }
 
   .vmb-desc {
-    padding: 0 16px;
+    padding: 0 4px;
     width: 100%;
     margin: 0 auto;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 0.6rem;
+    font-size: 1rem;
     letter-spacing: 0.14rem;
     font-weight: normal;
     /* border: 1px solid yellow; */
@@ -179,6 +192,10 @@
 }
 
 @media (min-width: 577px) {
+  .line3-left-member {
+    display: block;
+  }
+
   .vmb-general {
     display: flex;
     color: white;
@@ -244,6 +261,10 @@
 }
 
 @media (min-width: 768px) {
+  .line3-left-member {
+    display: block;
+  }
+
   .vmb-general {
     display: flex;
     color: white;
@@ -309,6 +330,10 @@
 }
 
 @media (min-width: 992px) {
+  .line3-left-member {
+    display: none;
+  }
+
   .vmb-general {
     display: flex;
     color: white;
